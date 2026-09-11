@@ -8,6 +8,7 @@ public class Practice {
         char letter = in.next().charAt(0);
         System.out.println(caseCheck(letter));
     }
+    
     static String caseCheck(char letter){
         if (letter >= 'a' && letter <= 'z')return "Lowercase";
         if (letter >= 'A' && letter <= 'Z')return "Uppercase";
